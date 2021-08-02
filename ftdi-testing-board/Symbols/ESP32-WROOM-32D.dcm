@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-WROOM-32D
+D BlueTooth, WiFi 802.11b/g/n, BlueTooth v4.2 +EDR, clases 1, 2 y 3 Módulos de transceptor RF 2.4GHz ~ 2.5GHz Integrado, rastreo Montaje en superficie
+K RX TXRX MOD WIFI TRACE ANT SMD
+F https://www.mouser.com/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf
+$ENDCMP
+#
+#End Doc Library

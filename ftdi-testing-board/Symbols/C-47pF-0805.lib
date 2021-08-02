@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 47pF
+#
+DEF 47pF C 0 40 Y Y 1 F N
+F0 "C" 200 100 50 H V C CNN
+F1 "47pF" 200 0 50 H V C CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 900 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Würth Elektronik" 600 100 50 H I C CNN "Manufacturer"
+F5 "885012007014" 1300 100 50 H I C CNN "Manufacturer_Part_Number"
+F6 "Digi-Key" 600 0 50 H I C CNN "Supplier 1"
+F7 "732-7818-1-ND" 1200 0 50 H I C CNN "Supplier Part Number 1"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name ESP32-WROOM-32D)(type Legacy)(uri ${KIPRJMOD}/Symbols/ESP32-WROOM-32D.lib)(options "")(descr ""))
+  (lib (name FT260S-U)(type Legacy)(uri ${KIPRJMOD}/Symbols/FT260S-U.lib)(options "")(descr ""))
+  (lib (name FT312D-32L1C-R)(type Legacy)(uri ${KIPRJMOD}/Symbols/FT312D-32L1C-R.lib)(options "")(descr ""))
+  (lib (name R-27-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-27-0805.lib)(options "")(descr ""))
+  (lib (name R-220-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-220-0805.lib)(options "")(descr ""))
+  (lib (name LED-RED-CLEAR-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/LED-RED-CLEAR-0805.lib)(options "")(descr ""))
+  (lib (name C-47pF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-47pF-0805.lib)(options "")(descr ""))
+  (lib (name C-100nF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-100nF-0805.lib)(options "")(descr ""))
+)

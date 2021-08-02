@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF
+D 0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)
+K CAP CER 0.1UF 50V X7R 0805
+F https://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+#End Doc Library

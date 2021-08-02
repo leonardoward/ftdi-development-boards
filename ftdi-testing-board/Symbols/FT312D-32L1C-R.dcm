@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT312D-32L1C-R
+D FTDI - FT312D-32L1C-R - USB Interface, USB Host Controller / Android Host, USB 2.0, 2.97 V, 3.63 V, LQFP, 32 Pins
+F https://componentsearchengine.com/Datasheets/2/FT312D-32L1C-R.pdf
+$ENDCMP
+#
+#End Doc Library
