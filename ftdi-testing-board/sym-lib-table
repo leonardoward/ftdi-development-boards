@@ -7,4 +7,5 @@
   (lib (name LED-RED-CLEAR-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/LED-RED-CLEAR-0805.lib)(options "")(descr ""))
   (lib (name C-47pF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-47pF-0805.lib)(options "")(descr ""))
   (lib (name C-100nF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-100nF-0805.lib)(options "")(descr ""))
+  (lib (name C-4.7uF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-4.7uF-0805.lib)(options "")(descr ""))
 )

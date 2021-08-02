@@ -152,13 +152,6 @@ $EndComp
 Wire Wire Line
 	5100 1850 4850 1850
 Wire Wire Line
-	4550 1850 4400 1850
-Wire Wire Line
-	4400 1350 4400 1250
-Wire Wire Line
-	4400 1250 5000 1250
-Connection ~ 5000 1250
-Wire Wire Line
 	5100 1950 4050 1950
 Wire Wire Line
 	5100 2050 4150 2050
@@ -198,8 +191,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3250 5500 3150
 Connection ~ 5600 3250
-Wire Wire Line
-	4400 1600 4400 1850
 $Comp
 L C-47pF-0805:47pF C?
 U 1 1 610CEA8A
@@ -239,20 +230,69 @@ Wire Wire Line
 Wire Wire Line
 	3200 1950 3750 1950
 Wire Wire Line
-	3650 2750 3650 3250
-Wire Wire Line
-	3650 3250 5050 3250
-Connection ~ 5500 3250
-Wire Wire Line
-	3200 2750 3200 3250
-Wire Wire Line
-	3200 3250 3650 3250
-Connection ~ 3650 3250
-Wire Wire Line
 	5100 2550 5050 2550
+$Comp
+L C-100nF-0805:100nF C?
+U 1 1 610E7181
+P 4650 2850
+F 0 "C?" H 4765 2896 50  0000 L CNN
+F 1 "100nF" H 4765 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5850 3150 50  0001 C CNN
+F 3 "https://datasheets.avx.com/X7RDielectric.pdf" H 4650 2850 50  0001 C CNN
+F 4 "AVX Corporation" H 5450 3050 50  0001 C CNN "Manufacturer"
+F 5 "08055C104KAT2A" H 6250 3050 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 5350 2950 50  0001 C CNN "Supplier 1"
+F 7 "478-1395-1-ND" H 6150 2950 50  0001 C CNN "Supplier Part Number 1"
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5050 2550 5050 3250
-Connection ~ 5050 3250
+	4650 2700 4650 2450
 Wire Wire Line
-	5050 3250 5500 3250
+	4650 2450 5100 2450
+Wire Wire Line
+	5100 2350 4650 2350
+Wire Wire Line
+	4650 2350 4650 2450
+Connection ~ 4650 2450
+$Comp
+L C-100nF-0805:100nF C?
+U 1 1 610EA512
+P 4000 1450
+F 0 "C?" H 4115 1496 50  0000 L CNN
+F 1 "100nF" H 4115 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5200 1750 50  0001 C CNN
+F 3 "https://datasheets.avx.com/X7RDielectric.pdf" H 4000 1450 50  0001 C CNN
+F 4 "AVX Corporation" H 4800 1650 50  0001 C CNN "Manufacturer"
+F 5 "08055C104KAT2A" H 5600 1650 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 4700 1550 50  0001 C CNN "Supplier 1"
+F 7 "478-1395-1-ND" H 5500 1550 50  0001 C CNN "Supplier Part Number 1"
+	1    4000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1300 4450 1250
+Wire Wire Line
+	4450 1250 5000 1250
+Connection ~ 5000 1250
+$Comp
+L C-4.7uF-0805:4.7uF U?
+U 1 1 610ECEC6
+P 4450 1450
+F 0 "U?" H 4565 1496 50  0000 L CNN
+F 1 "4.7uF" H 4565 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5650 1650 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp" H 4450 1450 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5450 1550 50  0001 C CNN "Manufacturer"
+F 5 "CL21A475KQFNNNE" H 6450 1550 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 5150 1450 50  0001 C CNN "Supplier 1"
+F 7 "1276-1198-1-ND" H 5750 1450 50  0001 C CNN "Supplier Part Number 1"
+	1    4450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1300 4000 1250
+Wire Wire Line
+	4000 1250 4450 1250
+Connection ~ 4450 1250
 $EndSCHEMATC

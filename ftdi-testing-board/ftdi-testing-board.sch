@@ -152,13 +152,6 @@ $EndComp
 Wire Wire Line
 	5100 1850 4850 1850
 Wire Wire Line
-	4550 1850 4400 1850
-Wire Wire Line
-	4400 1350 4400 1250
-Wire Wire Line
-	4400 1250 5000 1250
-Connection ~ 5000 1250
-Wire Wire Line
 	5100 1950 4050 1950
 Wire Wire Line
 	5100 2050 4150 2050
@@ -184,8 +177,6 @@ Wire Wire Line
 	5800 3250 5800 3150
 Connection ~ 5900 3250
 Wire Wire Line
-	5800 3250 5700 3250
-Wire Wire Line
 	5700 3250 5700 3150
 Connection ~ 5800 3250
 Wire Wire Line
@@ -198,8 +189,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3250 5500 3150
 Connection ~ 5600 3250
-Wire Wire Line
-	4400 1600 4400 1850
 $Comp
 L C-47pF-0805:47pF C?
 U 1 1 610CEA8A
@@ -239,22 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1950 3750 1950
 Wire Wire Line
-	3650 2750 3650 3250
-Wire Wire Line
-	3650 3250 4650 3250
-Connection ~ 5500 3250
-Wire Wire Line
-	3200 2750 3200 3250
-Wire Wire Line
-	3200 3250 3650 3250
-Connection ~ 3650 3250
-Wire Wire Line
 	5100 2550 5050 2550
-Wire Wire Line
-	5050 2550 5050 3250
-Connection ~ 5050 3250
-Wire Wire Line
-	5050 3250 5500 3250
 $Comp
 L C-100nF-0805:100nF C?
 U 1 1 610E7181
@@ -279,9 +253,137 @@ Wire Wire Line
 Wire Wire Line
 	4650 2350 4650 2450
 Connection ~ 4650 2450
+$Comp
+L C-100nF-0805:100nF C?
+U 1 1 610EA512
+P 4000 1200
+F 0 "C?" H 4115 1246 50  0000 L CNN
+F 1 "100nF" H 4115 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5200 1500 50  0001 C CNN
+F 3 "https://datasheets.avx.com/X7RDielectric.pdf" H 4000 1200 50  0001 C CNN
+F 4 "AVX Corporation" H 4800 1400 50  0001 C CNN "Manufacturer"
+F 5 "08055C104KAT2A" H 5600 1400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 4700 1300 50  0001 C CNN "Supplier 1"
+F 7 "478-1395-1-ND" H 5500 1300 50  0001 C CNN "Supplier Part Number 1"
+	1    4000 1200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4650 3000 4650 3250
-Connection ~ 4650 3250
+	4450 1050 4450 1000
 Wire Wire Line
-	4650 3250 5050 3250
+	4450 1000 5000 1000
+$Comp
+L C-4.7uF-0805:4.7uF U?
+U 1 1 610ECEC6
+P 4450 1200
+F 0 "U?" H 4565 1246 50  0000 L CNN
+F 1 "4.7uF" H 4565 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5650 1400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp" H 4450 1200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5450 1300 50  0001 C CNN "Manufacturer"
+F 5 "CL21A475KQFNNNE" H 6450 1300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 5150 1200 50  0001 C CNN "Supplier 1"
+F 7 "1276-1198-1-ND" H 5750 1200 50  0001 C CNN "Supplier Part Number 1"
+	1    4450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1050 4000 1000
+Wire Wire Line
+	4000 1000 4450 1000
+Connection ~ 4450 1000
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F0A92
+P 3200 2850
+F 0 "#PWR?" H 3200 2600 50  0001 C CNN
+F 1 "GND1" H 3205 2677 50  0000 C CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F1704
+P 3650 2850
+F 0 "#PWR?" H 3650 2600 50  0001 C CNN
+F 1 "GND1" H 3655 2677 50  0000 C CNN
+F 2 "" H 3650 2850 50  0001 C CNN
+F 3 "" H 3650 2850 50  0001 C CNN
+	1    3650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F1A26
+P 4650 3050
+F 0 "#PWR?" H 4650 2800 50  0001 C CNN
+F 1 "GND1" H 4655 2877 50  0000 C CNN
+F 2 "" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F2402
+P 5050 2550
+F 0 "#PWR?" H 5050 2300 50  0001 C CNN
+F 1 "GND1" H 5055 2377 50  0000 C CNN
+F 2 "" H 5050 2550 50  0001 C CNN
+F 3 "" H 5050 2550 50  0001 C CNN
+	1    5050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F2945
+P 5800 3350
+F 0 "#PWR?" H 5800 3100 50  0001 C CNN
+F 1 "GND1" H 5805 3177 50  0000 C CNN
+F 2 "" H 5800 3350 50  0001 C CNN
+F 3 "" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F4024
+P 4000 1400
+F 0 "#PWR?" H 4000 1150 50  0001 C CNN
+F 1 "GND1" H 4005 1227 50  0000 C CNN
+F 2 "" H 4000 1400 50  0001 C CNN
+F 3 "" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 610F4B91
+P 4450 1400
+F 0 "#PWR?" H 4450 1150 50  0001 C CNN
+F 1 "GND1" H 4455 1227 50  0000 C CNN
+F 2 "" H 4450 1400 50  0001 C CNN
+F 3 "" H 4450 1400 50  0001 C CNN
+	1    4450 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1000 5000 1250
+Connection ~ 5000 1250
+Wire Wire Line
+	4450 1350 4450 1400
+Wire Wire Line
+	4000 1350 4000 1400
+Wire Wire Line
+	3200 2750 3200 2850
+Wire Wire Line
+	3650 2750 3650 2850
+Wire Wire Line
+	4650 3000 4650 3050
+Wire Wire Line
+	5800 3250 5700 3250
+Wire Wire Line
+	5800 3350 5800 3250
 $EndSCHEMATC
