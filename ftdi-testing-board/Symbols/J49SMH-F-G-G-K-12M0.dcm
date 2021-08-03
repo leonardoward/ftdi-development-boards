@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP J49SMH-F-G-G-K-12M0
+D 12 MHz ±30ppm Crystal 18pF 35 Ohms HC-49/US
+K CRYSTAL 12.0000MHZ 18PF SMD
+F https://www.jauch.com/downloadfile/5d5283eb8ea55300421fd84937fcba163/jauch_datasheet_j49smh.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CPDT6-5V4-HF
+D 15V Clamp 5A (8/20µs) Ipp TVS Diode Surface Mount SOT-23-6
+K TVS DIODE 5VWM 15VC SOT23-6
+F https://www.mouser.com/datasheet/2/80/CPDT6-5V4-HF_RevC831377-1481299.pdf
+$ENDCMP
+#
+#End Doc Library

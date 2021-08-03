@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UJ31-CH-G2-SMT-TR
+D USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Board Cutout, Surface Mount, Right Angle; Through Hole
+K CONN RCPT USB3.1 TYPEC 24POS SMD
+F https://www.arrow.com/en/products/uj31-ch-g2-smt-tr/cui-devices
+$ENDCMP
+#
+#End Doc Library

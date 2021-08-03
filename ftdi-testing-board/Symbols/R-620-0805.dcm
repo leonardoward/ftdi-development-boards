@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 620
+D 620 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film
+K RES SMD 620 OHM 5% 1/8W 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+#End Doc Library
