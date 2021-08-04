@@ -15,4 +15,8 @@
   (lib (name R-5.1k-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-5.1k-0805.lib)(options "")(descr ""))
   (lib (name FB-350m-300mA-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/FB-350m-300mA-0805.lib)(options "")(descr ""))
   (lib (name AP2115M-3.3TRG1)(type Legacy)(uri ${KIPRJMOD}/Symbols/AP2115M-3.3TRG1.lib)(options "")(descr ""))
+  (lib (name "NPN-30V-600 mA")(type Legacy)(uri "${KIPRJMOD}/Symbols/NPN-30V-600 mA.lib")(options "")(descr ""))
+  (lib (name R-1K-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-1K-0805.lib)(options "")(descr ""))
+  (lib (name R-10K-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-10K-0805.lib)(options "")(descr ""))
+  (lib (name C-1uF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-1uF-0805.lib)(options "")(descr ""))
 )

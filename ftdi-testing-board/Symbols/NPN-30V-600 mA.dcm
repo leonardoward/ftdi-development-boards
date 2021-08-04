@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMBT2222LT1G
+D NPN 30 V 600 mA 250MHz 300 mW Montaje en superficie SOT-23-3 (TO-236)
+K TRANS NPN 30V 600MA SOT23-3
+F https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf
+$ENDCMP
+#
+#End Doc Library

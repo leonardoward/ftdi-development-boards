@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1K
+D 1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+K RES 1K OHM 1% 1/8W 0805
+F https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf
+$ENDCMP
+#
+#End Doc Library
