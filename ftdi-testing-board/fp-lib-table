@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESP32-WROOM-32D)(type KiCad)(uri ${KIPRJMOD}/Footprints/ESP32-WROOM-32D.pretty)(options "")(descr ""))
+  (lib (name UJ31CHG2SMTTR)(type KiCad)(uri ${KIPRJMOD}/Footprints/UJ31CHG2SMTTR.pretty)(options "")(descr ""))
+  (lib (name AP2115M-3.3TRG1)(type KiCad)(uri ${KIPRJMOD}/Footprints/AP2115M-3.3TRG1.pretty)(options "")(descr ""))
+)

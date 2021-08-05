@@ -19,4 +19,5 @@
   (lib (name R-1K-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-1K-0805.lib)(options "")(descr ""))
   (lib (name R-10K-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-10K-0805.lib)(options "")(descr ""))
   (lib (name C-1uF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-1uF-0805.lib)(options "")(descr ""))
+  (lib (name TS5A3153DCUR)(type Legacy)(uri ${KIPRJMOD}/Symbols/TS5A3153DCUR.lib)(options "")(descr ""))
 )

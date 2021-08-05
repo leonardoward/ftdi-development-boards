@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # 4.7uF
 #
-DEF 4.7uF U 0 40 Y Y 1 F N
+DEF 4.7uF U 0 40 N N 1 F N
 F0 "U" 100 200 50 H V C CNN
 F1 "4.7uF" 200 100 50 H V C CNN
 F2 "Capacitor_SMD:C_0805_2012Metric" 1200 200 50 H I C CNN

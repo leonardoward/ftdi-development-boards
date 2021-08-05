@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS5A3153DCUR
+D 1 Circuit IC Switch 2:1 900mOhm 8-VSSOP
+K IC SWITCH SPDT SINGLE 8VSSOP
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fts5a3153
+$ENDCMP
+#
+#End Doc Library
