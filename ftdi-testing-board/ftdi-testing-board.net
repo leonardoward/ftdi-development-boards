@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Ext\ftdi-development-boards\ftdi-testing-board\ftdi-testing-board.sch)
-    (date "8/5/2021 7:00:09 AM")
+    (date "8/5/2021 7:04:30 AM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -547,7 +547,7 @@
       (tstamp 616183B1))
     (comp (ref J2)
       (value Conn_01x06_Male)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical)
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x06_Male) (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
