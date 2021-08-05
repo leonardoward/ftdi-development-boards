@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Ext\ftdi-development-boards\ftdi-testing-board\ftdi-testing-board.sch</source>
+    <date>8/5/2021 2:58:09 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FTDI Testing Board - Leonardo Ward</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2021-08-04</date>
+        <source>ftdi-testing-board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT5K10</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FT5K10CT-ND</field>
+      </fields>
+      <libsource lib="R-5.1k-0805" part="5.1k" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6113E3B6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT5K10</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FT5K10CT-ND</field>
+      </fields>
+      <libsource lib="R-5.1k-0805" part="5.1k" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6114001A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>CPDT6-5V4-HF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/80/CPDT6-5V4-HF_RevC831377-1481299.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer_Part_Number">CPDT6-5V4-HF</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">641-1086-1-ND</field>
+        <field name="Supplier Part Number 2">750-CPDT6-5V4-HF</field>
+      </fields>
+      <libsource lib="CPDT6-5V4-HF" part="CPDT6-5V4-HF" description="15V Clamp 5A (8/20µs) Ipp TVS Diode Surface Mount SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61118AF0</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AP2115M-3.3TRG1</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2115.pdf</datasheet>
+      <fields>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2115M-3.3TRG1</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">AP2115M-3.3TRG1DICT-ND</field>
+        <field name="Supplier Part Number 2">621-AP2115M-3.3TRG1</field>
+      </fields>
+      <libsource lib="AP2115M-3.3TRG1" part="AP2115M-3.3TRG1" description="Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6121CBF2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/885012007014.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <libsource lib="C-47pF-0805" part="47pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610D0814</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT27R0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">738-RMCF0805FT27R0CT-ND</field>
+      </fields>
+      <libsource lib="R-27-0805" part="27" description="27 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C263D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT27R0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">738-RMCF0805FT27R0CT-ND</field>
+      </fields>
+      <libsource lib="R-27-0805" part="27" description="27 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C1152</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>350m</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19103</datasheet>
+      <fields>
+        <field name="Manufacturer">Fair-Rite Products Corp.</field>
+        <field name="Manufacturer_Part_Number">2508056017Y0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1934-1468-1-ND</field>
+      </fields>
+      <libsource lib="FB-350m-300mA-0805" part="350m" description="1 Signal Line Ferrite Bead 0805 (2012 Metric) 300mA 350mOhm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611935C7</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>350m</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19103</datasheet>
+      <fields>
+        <field name="Manufacturer">Fair-Rite Products Corp.</field>
+        <field name="Manufacturer_Part_Number">2508056017Y0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1934-1468-1-ND</field>
+      </fields>
+      <libsource lib="FB-350m-300mA-0805" part="350m" description="1 Signal Line Ferrite Bead 0805 (2012 Metric) 300mA 350mOhm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611912FB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/885012007014.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <libsource lib="C-47pF-0805" part="47pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610CEA8A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/885012007014.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <libsource lib="C-47pF-0805" part="47pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A8395</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/885012007014.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <libsource lib="C-47pF-0805" part="47pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A72B8</tstamp>
+    </comp>
+    <comp ref="XTAL1">
+      <value>J49SMH-F-G-G-K-12M0</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD_HandSoldering</footprint>
+      <datasheet>https://www.jauch.com/downloadfile/5d5283eb8ea55300421fd84937fcba163/jauch_datasheet_j49smh.pdf</datasheet>
+      <fields>
+        <field name="Description">CRYSTAL 12.0000MHZ 18PF SMD</field>
+        <field name="Height">4</field>
+        <field name="Manufacturer_Name">Jauch Quartz</field>
+        <field name="Manufacturer_Part_Number">J49SMH-F-G-G-K-12M0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1908-J49SMH-F-G-G-K-12M0CT-ND</field>
+      </fields>
+      <libsource lib="J49SMH-F-G-G-K-12M0" part="J49SMH-F-G-G-K-12M0" description="12 MHz ±30ppm Crystal 18pF 35 Ohms HC-49/US"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A0D95</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0805JR-07620RL</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-620ARCT-ND</field>
+      </fields>
+      <libsource lib="R-620-0805" part="620" description="620 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6109A99E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KQFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1198-1-ND</field>
+      </fields>
+      <libsource lib="C-4.7uF-0805" part="4.7uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610ECEC6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer_Part_Number">08055C104KAT2A</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">478-1395-1-ND</field>
+      </fields>
+      <libsource lib="C-100nF-0805" part="100nF" description="0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610EA512</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer_Part_Number">08055C104KAT2A</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">478-1395-1-ND</field>
+      </fields>
+      <libsource lib="C-100nF-0805" part="100nF" description="0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610E7181</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED-CLEAR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150080SS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">150080SS75000</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-4985-1-ND</field>
+      </fields>
+      <libsource lib="LED-RED-CLEAR-0805" part="RED-CLEAR" description="Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610C40FE</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612B216B</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KQFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1198-1-ND</field>
+      </fields>
+      <libsource lib="C-4.7uF-0805" part="4.7uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612427E7</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6139BB20</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer_Part_Number">08055C104KAT2A</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">478-1395-1-ND</field>
+      </fields>
+      <libsource lib="C-100nF-0805" part="100nF" description="0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FC35B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KQFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1198-1-ND</field>
+      </fields>
+      <libsource lib="C-4.7uF-0805" part="4.7uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FC350</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/885012007014.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <libsource lib="C-47pF-0805" part="47pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DDAC7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT27R0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">738-RMCF0805FT27R0CT-ND</field>
+      </fields>
+      <libsource lib="R-27-0805" part="27" description="27 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DDABD</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT27R0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">738-RMCF0805FT27R0CT-ND</field>
+      </fields>
+      <libsource lib="R-27-0805" part="27" description="27 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DDAB3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/885012007014.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <libsource lib="C-47pF-0805" part="47pF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610DDA5F</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>FT260S-U</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT260.pdf</datasheet>
+      <fields>
+        <field name="Description">FTDI - FT260S-U - INTERFACE BRIDGE, USB TO I2C/UART, TSSOP</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">FTDI Chip</field>
+        <field name="Manufacturer_Part_Number">FT260S-U</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">768-1282-5-ND</field>
+        <field name="Supplier Part Number 2">895-FT260S-U</field>
+      </fields>
+      <libsource lib="FT260S-U" part="FT260S-U" description="FTDI - FT260S-U - INTERFACE BRIDGE, USB TO I2C/UART, TSSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610AF994</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615095CA</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0805JR-07620RL</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-620ARCT-ND</field>
+      </fields>
+      <libsource lib="R-620-0805" part="620" description="620 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6142AB66</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>RED-CLEAR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150080SS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">150080SS75000</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-4985-1-ND</field>
+      </fields>
+      <libsource lib="LED-RED-CLEAR-0805" part="RED-CLEAR" description="Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6142C05A</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>FT312D-32L1C-R</value>
+      <footprint>Package_QFP:LQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/FT312D-32L1C-R.pdf</datasheet>
+      <fields>
+        <field name="Description">FTDI - FT312D-32L1C-R - USB Interface, USB Host Controller / Android Host, USB 2.0, 2.97 V, 3.63 V, LQFP, 32 Pins</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">FTDI Chip</field>
+        <field name="Manufacturer_Part_Number">FT312D-32L1C-R</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">768-1182-1-ND</field>
+        <field name="Supplier Part Number 2">895-FT312D-32L1C-R</field>
+      </fields>
+      <libsource lib="FT312D-32L1C-R" part="FT312D-32L1C-R" description="FTDI - FT312D-32L1C-R - USB Interface, USB Host Controller / Android Host, USB 2.0, 2.97 V, 3.63 V, LQFP, 32 Pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A2C09</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0805JR-07620RL</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-620ARCT-ND</field>
+      </fields>
+      <libsource lib="R-620-0805" part="620" description="620 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61589DC6</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RED-CLEAR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150080SS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">150080SS75000</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-4985-1-ND</field>
+      </fields>
+      <libsource lib="LED-RED-CLEAR-0805" part="RED-CLEAR" description="Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61589DD0</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611110A9</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MMBT2222LT1G</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">MMBT2222LT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="NPN-30V-600 mA" part="MMBT2222LT1G" description="NPN 30 V 600 mA 250MHz 300 mW Montaje en superficie SOT-23-3 (TO-236)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615CF039</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KPFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1275-1-ND</field>
+      </fields>
+      <libsource lib="C-1uF-0805" part="1uF" description="1 µF ±10% 10V X7R 0805 (2012 Metric) Ceramic Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616542CF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28773/crcwce3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_Part_Number">CRCW080510K0FKEAC</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">541-3976-1-ND</field>
+      </fields>
+      <libsource lib="R-10K-0805" part="10K" description="10 kOhms ±1% 0.125W 0805 (2012 Metric) - Chip Resistor Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164E8F7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28773/crcwce3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_Part_Number">CRCW080510K0FKEAC</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">541-3976-1-ND</field>
+      </fields>
+      <libsource lib="R-10K-0805" part="10K" description="10 kOhms ±1% 0.125W 0805 (2012 Metric) - Chip Resistor Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61626CA4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28773/crcwce3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_Part_Number">CRCW080510K0FKEAC</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">541-3976-1-ND</field>
+      </fields>
+      <libsource lib="R-10K-0805" part="10K" description="10 kOhms ±1% 0.125W 0805 (2012 Metric) - Chip Resistor Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61625B2C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KPFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1275-1-ND</field>
+      </fields>
+      <libsource lib="C-1uF-0805" part="1uF" description="1 µF ±10% 10V X7R 0805 (2012 Metric) Ceramic Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6161A399</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28773/crcwce3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_Part_Number">CRCW080510K0FKEAC</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">541-3976-1-ND</field>
+      </fields>
+      <libsource lib="R-10K-0805" part="10K" description="10 kOhms ±1% 0.125W 0805 (2012 Metric) - Chip Resistor Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616183B1</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D0069</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT2222LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MMBT2222LT1G</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">MMBT2222LT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="NPN-30V-600 mA" part="MMBT2222LT1G" description="NPN 30 V 600 mA 250MHz 300 mW Montaje en superficie SOT-23-3 (TO-236)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615CDD25</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x14_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x14_Male" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FFEA9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x14_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x14_Male" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61202E4D</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61204BA6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TS5A3153DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fts5a3153</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TS5A3153DCUR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">296-21185-1-ND</field>
+      </fields>
+      <libsource lib="TS5A3153DCUR" part="TS5A3153DCUR" description="1 Circuit IC Switch 2:1 900mOhm 8-VSSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612CCA2D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TS5A3153DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fts5a3153</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TS5A3153DCUR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">296-21185-1-ND</field>
+      </fields>
+      <libsource lib="TS5A3153DCUR" part="TS5A3153DCUR" description="1 Circuit IC Switch 2:1 900mOhm 8-VSSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612D1CFF</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612D65B9</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138461A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>UJ31-CH-G2-SMT-TR</value>
+      <footprint>UJ31CHG2SMTTR:UJ31CHG2SMTTR</footprint>
+      <datasheet>https://www.arrow.com/en/products/uj31-ch-g2-smt-tr/cui-devices</datasheet>
+      <fields>
+        <field name="Description">USB Connectors USB jack 3.1 C type 24pin Horz SMT</field>
+        <field name="Height">4.66</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">UJ31-CH-G2-SMT-TR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">102-4483-1-ND</field>
+        <field name="Supplier Part Number 2">490-UJ31-CH-G2SMT-TR</field>
+      </fields>
+      <libsource lib="UJ31-CH-G2-SMT-TR" part="UJ31-CH-G2-SMT-TR" description="USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Board Cutout, Surface Mount, Right Angle; Through Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610CDFAD</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ESP32-WROOM-32D</value>
+      <footprint>ESP32-WROOM-32D:ESP32-WROOM-32D</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf</datasheet>
+      <fields>
+        <field name="Description">WiFi Modules (802.11) SMD Module, ESP32-D0WD, 32Mbits SPI flash, UART mode, PCB antenna</field>
+        <field name="Height">3.1</field>
+        <field name="LCSC">C473012</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-WROOM-32D</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROOM-32D?qs=MLItCLRbWszx2KabkKPu5A%3D%3D</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1965-ESP32-WROOM-32D(4MB)CT-ND</field>
+      </fields>
+      <libsource lib="ESP32-WROOM-32D" part="ESP32-WROOM-32D" description="BlueTooth, WiFi 802.11b/g/n, BlueTooth v4.2 +EDR, clases 1, 2 y 3 Módulos de transceptor RF 2.4GHz ~ 2.5GHz Integrado, rastreo Montaje en superficie"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6106AFC3</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615880BD</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616CD3AB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AP2115M-3.3TRG1" part="AP2115M-3.3TRG1">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-SOIC</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2115.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2115M-3.3TRG1</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2115M-3.3TRG1</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">AP2115M-3.3TRG1DICT-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">621-AP2115M-3.3TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="NC_1" type="passive"/>
+        <pin num="3" name="NC_2" type="passive"/>
+        <pin num="4" name="NC_3" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="GND_1" type="passive"/>
+        <pin num="7" name="GND_2" type="passive"/>
+        <pin num="8" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-100nF-0805" part="100nF">
+      <description>0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)</description>
+      <docs>https://datasheets.avx.com/X7RDielectric.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer_Part_Number">08055C104KAT2A</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">478-1395-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-1uF-0805" part="1uF">
+      <description>1 µF ±10% 10V X7R 0805 (2012 Metric) Ceramic Capacitor</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KPFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1275-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-4.7uF-0805" part="4.7uF">
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KQFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1198-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-47pF-0805" part="47pF">
+      <docs>https://www.we-online.de/katalog/datasheet/885012007014.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47pF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer_Part_Number">885012007014</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-7818-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CPDT6-5V4-HF" part="CPDT6-5V4-HF">
+      <description>15V Clamp 5A (8/20µs) Ipp TVS Diode Surface Mount SOT-23-6</description>
+      <docs>https://www.mouser.com/datasheet/2/80/CPDT6-5V4-HF_RevC831377-1481299.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CPDT6-5V4-HF</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer_Part_Number">CPDT6-5V4-HF</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">641-1086-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">750-CPDT6-5V4-HF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Male">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x14_Male">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-WROOM-32D" part="ESP32-WROOM-32D">
+      <description>BlueTooth, WiFi 802.11b/g/n, BlueTooth v4.2 +EDR, clases 1, 2 y 3 Módulos de transceptor RF 2.4GHz ~ 2.5GHz Integrado, rastreo Montaje en superficie</description>
+      <docs>https://www.mouser.com/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32D</field>
+        <field name="Footprint">ESP32-WROOM-32D:ESP32-WROOM-32D</field>
+        <field name="Description">WiFi Modules (802.11) SMD Module, ESP32-D0WD, 32Mbits SPI flash, UART mode, PCB antenna</field>
+        <field name="Height">3.1</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-WROOM-32D</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1965-ESP32-WROOM-32D(4MB)CT-ND</field>
+        <field name="LCSC">C473012</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="SENSOR_VP/IO36" type="passive"/>
+        <pin num="5" name="SENSOR_VN/IO39" type="passive"/>
+        <pin num="6" name="IO34" type="passive"/>
+        <pin num="7" name="IO35" type="passive"/>
+        <pin num="8" name="IO32" type="passive"/>
+        <pin num="9" name="IO33" type="passive"/>
+        <pin num="10" name="IO25" type="passive"/>
+        <pin num="11" name="IO26" type="passive"/>
+        <pin num="12" name="IO27" type="passive"/>
+        <pin num="13" name="IO14" type="passive"/>
+        <pin num="14" name="IO12" type="passive"/>
+        <pin num="15" name="GND_2" type="passive"/>
+        <pin num="16" name="IO13" type="passive"/>
+        <pin num="17" name="SD2/SDH/IO9" type="passive"/>
+        <pin num="18" name="SD3/SWP/IO10" type="passive"/>
+        <pin num="19" name="CMD/SCS/IO11" type="passive"/>
+        <pin num="20" name="CLK/SCK/IO6" type="passive"/>
+        <pin num="21" name="SD0/SDO/IO7" type="passive"/>
+        <pin num="22" name="SD1/SDI/IO8" type="passive"/>
+        <pin num="23" name="IO15" type="passive"/>
+        <pin num="24" name="IO2" type="passive"/>
+        <pin num="25" name="IO0" type="passive"/>
+        <pin num="26" name="IO4" type="passive"/>
+        <pin num="27" name="IO16" type="passive"/>
+        <pin num="28" name="IO17" type="passive"/>
+        <pin num="29" name="IO5" type="passive"/>
+        <pin num="30" name="IO18" type="passive"/>
+        <pin num="31" name="IO19" type="passive"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="passive"/>
+        <pin num="34" name="RXD0/IO3" type="passive"/>
+        <pin num="35" name="TXD0/IO1" type="passive"/>
+        <pin num="36" name="IO22" type="passive"/>
+        <pin num="37" name="IO23" type="passive"/>
+        <pin num="38" name="GND_3" type="passive"/>
+        <pin num="39" name="GND_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FB-350m-300mA-0805" part="350m">
+      <description>1 Signal Line Ferrite Bead 0805 (2012 Metric) 300mA 350mOhm</description>
+      <docs>https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19103</docs>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">350m</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Manufacturer">Fair-Rite Products Corp.</field>
+        <field name="Manufacturer_Part_Number">2508056017Y0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1934-1468-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FT260S-U" part="FT260S-U">
+      <description>FTDI - FT260S-U - INTERFACE BRIDGE, USB TO I2C/UART, TSSOP</description>
+      <docs>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT260.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT260S-U</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Description">FTDI - FT260S-U - INTERFACE BRIDGE, USB TO I2C/UART, TSSOP</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">FTDI Chip</field>
+        <field name="Manufacturer_Part_Number">FT260S-U</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">768-1282-5-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">895-FT260S-U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FSOURCE" type="passive"/>
+        <pin num="2" name="VBUS_DET" type="passive"/>
+        <pin num="3" name="DIO12/RX_LED" type="passive"/>
+        <pin num="4" name="DIO13/DSRN" type="passive"/>
+        <pin num="5" name="DEBUGGER" type="passive"/>
+        <pin num="6" name="STEST_RSTN" type="passive"/>
+        <pin num="7" name="RESETN" type="passive"/>
+        <pin num="8" name="DCNF0" type="passive"/>
+        <pin num="9" name="DCNF1" type="passive"/>
+        <pin num="10" name="VCCIO" type="passive"/>
+        <pin num="11" name="DIO0/TX_ACTIVE" type="passive"/>
+        <pin num="12" name="DIO1/RTSN" type="passive"/>
+        <pin num="13" name="DIO2/CTSN" type="passive"/>
+        <pin num="14" name="DIO3/RXD" type="passive"/>
+        <pin num="15" name="DIO4/TXD" type="passive"/>
+        <pin num="16" name="DIO5/SCL" type="passive"/>
+        <pin num="17" name="DIO6/SDA" type="passive"/>
+        <pin num="18" name="DIO7/PWREN" type="passive"/>
+        <pin num="19" name="DIO8/WAKEUP" type="passive"/>
+        <pin num="20" name="DIO9/DTRN" type="passive"/>
+        <pin num="21" name="DIO10/DCD" type="passive"/>
+        <pin num="22" name="DIO11/RI" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="DM" type="passive"/>
+        <pin num="25" name="DP" type="passive"/>
+        <pin num="26" name="VOUT3V3" type="passive"/>
+        <pin num="27" name="VCCIN" type="passive"/>
+        <pin num="28" name="AGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FT312D-32L1C-R" part="FT312D-32L1C-R">
+      <description>FTDI - FT312D-32L1C-R - USB Interface, USB Host Controller / Android Host, USB 2.0, 2.97 V, 3.63 V, LQFP, 32 Pins</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/FT312D-32L1C-R.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT312D-32L1C-R</field>
+        <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
+        <field name="Description">FTDI - FT312D-32L1C-R - USB Interface, USB Host Controller / Android Host, USB 2.0, 2.97 V, 3.63 V, LQFP, 32 Pins</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">FTDI Chip</field>
+        <field name="Manufacturer_Part_Number">FT312D-32L1C-R</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">768-1182-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">895-FT312D-32L1C-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="AVCC" type="passive"/>
+        <pin num="4" name="XTIN" type="passive"/>
+        <pin num="5" name="XTOUT" type="passive"/>
+        <pin num="6" name="GND_2" type="passive"/>
+        <pin num="7" name="VREGOUT" type="passive"/>
+        <pin num="8" name="TEST1" type="passive"/>
+        <pin num="9" name="TEST2" type="passive"/>
+        <pin num="10" name="RESET#" type="passive"/>
+        <pin num="11" name="TEST0" type="passive"/>
+        <pin num="12" name="NC_1" type="passive"/>
+        <pin num="13" name="VCCIO_1" type="passive"/>
+        <pin num="14" name="GND_3" type="passive"/>
+        <pin num="15" name="GND_4" type="passive"/>
+        <pin num="16" name="GND_5" type="passive"/>
+        <pin num="17" name="USBDP" type="passive"/>
+        <pin num="18" name="USBDM" type="passive"/>
+        <pin num="19" name="GND_6" type="passive"/>
+        <pin num="20" name="NC_2" type="passive"/>
+        <pin num="21" name="NC_3" type="passive"/>
+        <pin num="22" name="VCCIO_2" type="passive"/>
+        <pin num="23" name="TXD" type="passive"/>
+        <pin num="24" name="RXD" type="passive"/>
+        <pin num="25" name="RTS#" type="passive"/>
+        <pin num="26" name="CTS#" type="passive"/>
+        <pin num="27" name="GND_7" type="passive"/>
+        <pin num="28" name="VCCIO_3" type="passive"/>
+        <pin num="29" name="TX_ACTIVE" type="passive"/>
+        <pin num="30" name="NC_4" type="passive"/>
+        <pin num="31" name="NC_5" type="passive"/>
+        <pin num="32" name="USB_ERROR#" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J49SMH-F-G-G-K-12M0" part="J49SMH-F-G-G-K-12M0">
+      <description>12 MHz ±30ppm Crystal 18pF 35 Ohms HC-49/US</description>
+      <docs>https://www.jauch.com/downloadfile/5d5283eb8ea55300421fd84937fcba163/jauch_datasheet_j49smh.pdf</docs>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">J49SMH-F-G-G-K-12M0</field>
+        <field name="Footprint">Crystal:Crystal_SMD_HC49-SD_HandSoldering</field>
+        <field name="Description">CRYSTAL 12.0000MHZ 18PF SMD</field>
+        <field name="Height">4</field>
+        <field name="Manufacturer_Name">Jauch Quartz</field>
+        <field name="Manufacturer_Part_Number">J49SMH-F-G-G-K-12M0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1908-J49SMH-F-G-G-K-12M0CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED-RED-CLEAR-0805" part="RED-CLEAR">
+      <description>Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)</description>
+      <docs>https://www.we-online.de/katalog/datasheet/150080SS75000.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">RED-CLEAR</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">732-4985-1-ND</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Manufacturer Part Number">150080SS75000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NPN-30V-600 mA" part="MMBT2222LT1G">
+      <description>NPN 30 V 600 mA 250MHz 300 mW Montaje en superficie SOT-23-3 (TO-236)</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT2222LT1G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">MMBT2222LT1G</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">MMBT2222LT1GOSCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-10K-0805" part="10K">
+      <description>10 kOhms ±1% 0.125W 0805 (2012 Metric) - Chip Resistor Thick Film</description>
+      <docs>https://www.vishay.com/docs/28773/crcwce3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_Part_Number">CRCW080510K0FKEAC</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">541-3976-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-27-0805" part="27">
+      <description>27 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">27</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT27R0</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">738-RMCF0805FT27R0CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-5.1k-0805" part="5.1k">
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT5K10</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FT5K10CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-620-0805" part="620">
+      <description>620 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">620</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0805JR-07620RL</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-620ARCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TS5A3153DCUR" part="TS5A3153DCUR">
+      <description>1 Circuit IC Switch 2:1 900mOhm 8-VSSOP</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fts5a3153</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TS5A3153DCUR</field>
+        <field name="Footprint">Package_SO:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TS5A3153DCUR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">296-21185-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="IN" type="passive"/>
+        <pin num="6" name="NO" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UJ31-CH-G2-SMT-TR" part="UJ31-CH-G2-SMT-TR">
+      <description>USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Board Cutout, Surface Mount, Right Angle; Through Hole</description>
+      <docs>https://www.arrow.com/en/products/uj31-ch-g2-smt-tr/cui-devices</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UJ31-CH-G2-SMT-TR</field>
+        <field name="Footprint">UJ31CHG2SMTTR:UJ31CHG2SMTTR</field>
+        <field name="Description">USB Connectors USB jack 3.1 C type 24pin Horz SMT</field>
+        <field name="Height">4.66</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">UJ31-CH-G2-SMT-TR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">102-4483-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">490-UJ31-CH-G2SMT-TR</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND_1" type="passive"/>
+        <pin num="A2" name="SSTXP1" type="passive"/>
+        <pin num="A3" name="SSTXN1" type="passive"/>
+        <pin num="A4" name="V_BUS_1" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="DP1" type="passive"/>
+        <pin num="A7" name="DN1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="V_BUS_2" type="passive"/>
+        <pin num="A10" name="SSRXN2" type="passive"/>
+        <pin num="A11" name="SSRXP2" type="passive"/>
+        <pin num="A12" name="GND_2" type="passive"/>
+        <pin num="B1" name="GND_3" type="passive"/>
+        <pin num="B2" name="SSTXP2" type="passive"/>
+        <pin num="B3" name="SSTXN2" type="passive"/>
+        <pin num="B4" name="VBUS_1" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="DP2" type="passive"/>
+        <pin num="B7" name="DN2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS_2" type="passive"/>
+        <pin num="B10" name="SSRXN1" type="passive"/>
+        <pin num="B11" name="SSRXP1" type="passive"/>
+        <pin num="B12" name="GND_4" type="passive"/>
+        <pin num="S1" name="GND_5" type="passive"/>
+        <pin num="S2" name="GND_6" type="passive"/>
+        <pin num="S3" name="GND_7" type="passive"/>
+        <pin num="S4" name="GND_8" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AP2115M-3.3TRG1">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/AP2115M-3.3TRG1.lib</uri>
+    </library>
+    <library logical="C-100nF-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/C-100nF-0805.lib</uri>
+    </library>
+    <library logical="C-1uF-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/C-1uF-0805.lib</uri>
+    </library>
+    <library logical="C-4.7uF-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/C-4.7uF-0805.lib</uri>
+    </library>
+    <library logical="C-47pF-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/C-47pF-0805.lib</uri>
+    </library>
+    <library logical="CPDT6-5V4-HF">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/CPDT6-5V4-HF.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="ESP32-WROOM-32D">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/ESP32-WROOM-32D.lib</uri>
+    </library>
+    <library logical="FB-350m-300mA-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/FB-350m-300mA-0805.lib</uri>
+    </library>
+    <library logical="FT260S-U">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/FT260S-U.lib</uri>
+    </library>
+    <library logical="FT312D-32L1C-R">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/FT312D-32L1C-R.lib</uri>
+    </library>
+    <library logical="J49SMH-F-G-G-K-12M0">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/J49SMH-F-G-G-K-12M0.lib</uri>
+    </library>
+    <library logical="LED-RED-CLEAR-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/LED-RED-CLEAR-0805.lib</uri>
+    </library>
+    <library logical="NPN-30V-600 mA">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/NPN-30V-600 mA.lib</uri>
+    </library>
+    <library logical="R-10K-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/R-10K-0805.lib</uri>
+    </library>
+    <library logical="R-27-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/R-27-0805.lib</uri>
+    </library>
+    <library logical="R-5.1k-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/R-5.1k-0805.lib</uri>
+    </library>
+    <library logical="R-620-0805">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/R-620-0805.lib</uri>
+    </library>
+    <library logical="TS5A3153DCUR">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/TS5A3153DCUR.lib</uri>
+    </library>
+    <library logical="UJ31-CH-G2-SMT-TR">
+      <uri>C:\Ext\ftdi-development-boards\ftdi-testing-board/Symbols/UJ31-CH-G2-SMT-TR.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J2" pin="1"/>
+      <node ref="J5" pin="10"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U3" pin="38"/>
+      <node ref="U3" pin="39"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="ESP_RX">
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="34"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="8" name="ESP_TX">
+      <node ref="U3" pin="35"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="9" name="SENSOR_VP">
+      <node ref="U3" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="10" name="SENSOR_VN">
+      <node ref="J1" pin="5"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="11" name="ESP_IO34">
+      <node ref="U3" pin="6"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="12" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="13" name="GND3">
+      <node ref="D4" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U8" pin="23"/>
+      <node ref="J10" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U8" pin="28"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J11-Pad5)">
+      <node ref="J11" pin="5"/>
+      <node ref="U8" pin="15"/>
+    </net>
+    <net code="15" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="16" name="Net-(J11-Pad3)">
+      <node ref="U8" pin="12"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="17" name="Net-(R13-Pad1)">
+      <node ref="U8" pin="11"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="19" name="Net-(J12-Pad3)">
+      <node ref="U8" pin="22"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="20" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4"/>
+      <node ref="U8" pin="21"/>
+    </net>
+    <net code="21" name="GND2">
+      <node ref="U9" pin="19"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U9" pin="15"/>
+      <node ref="J13" pin="1"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U9" pin="27"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U9" pin="8"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="6"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="23" name="+3V3">
+      <node ref="J2" pin="6"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J12-Pad5)">
+      <node ref="U8" pin="20"/>
+      <node ref="J12" pin="5"/>
+    </net>
+    <net code="25" name="Net-(J3-PadB8)">
+      <node ref="J3" pin="B8"/>
+    </net>
+    <net code="26" name="Net-(J3-PadA8)">
+      <node ref="J3" pin="A8"/>
+    </net>
+    <net code="27" name="Net-(J3-PadB10)">
+      <node ref="J3" pin="B10"/>
+    </net>
+    <net code="28" name="Net-(J3-PadB11)">
+      <node ref="J3" pin="B11"/>
+    </net>
+    <net code="29" name="Net-(J3-PadB2)">
+      <node ref="J3" pin="B2"/>
+    </net>
+    <net code="30" name="Net-(J3-PadB3)">
+      <node ref="J3" pin="B3"/>
+    </net>
+    <net code="31" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="J3" pin="A7"/>
+      <node ref="J3" pin="B7"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="33" name="ESP_IO25">
+      <node ref="U3" pin="10"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="34" name="ESP_IO26">
+      <node ref="J1" pin="11"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="35" name="ESP_IO27">
+      <node ref="U3" pin="12"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="36" name="ESP_IO14">
+      <node ref="J1" pin="13"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="37" name="ESP_IO12">
+      <node ref="J1" pin="14"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="38" name="Net-(J6-Pad3)">
+      <node ref="U2" pin="5"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="39" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="40" name="GNDA">
+      <node ref="J8" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="41" name="ESP_IO13">
+      <node ref="J5" pin="9"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="42" name="Net-(J3-PadA10)">
+      <node ref="J3" pin="A10"/>
+    </net>
+    <net code="43" name="Net-(J3-PadA11)">
+      <node ref="J3" pin="A11"/>
+    </net>
+    <net code="44" name="Net-(J3-PadA2)">
+      <node ref="J3" pin="A2"/>
+    </net>
+    <net code="45" name="Net-(J3-PadA3)">
+      <node ref="J3" pin="A3"/>
+    </net>
+    <net code="46" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="J3" pin="A4"/>
+      <node ref="J3" pin="B4"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J3" pin="A9"/>
+      <node ref="J3" pin="B9"/>
+    </net>
+    <net code="47" name="ESP_IO35">
+      <node ref="U3" pin="7"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="48" name="ESP_IO32">
+      <node ref="U3" pin="8"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="49" name="ESP_IO33">
+      <node ref="J1" pin="9"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="50" name="ESP_IO17">
+      <node ref="J4" pin="11"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="51" name="SD2">
+      <node ref="J5" pin="8"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="52" name="SD3">
+      <node ref="J5" pin="7"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="53" name="CMD">
+      <node ref="J5" pin="6"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="54" name="CLK">
+      <node ref="U3" pin="20"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="55" name="SD0">
+      <node ref="J5" pin="4"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="56" name="SD1">
+      <node ref="J5" pin="3"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="57" name="ESP_IO15">
+      <node ref="J5" pin="2"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="58" name="ESP_IO2">
+      <node ref="J5" pin="1"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="59" name="ESP_IO0">
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="25"/>
+      <node ref="J4" pin="14"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="60" name="ESP_IO4">
+      <node ref="U3" pin="26"/>
+      <node ref="J4" pin="13"/>
+    </net>
+    <net code="61" name="ESP_IO16">
+      <node ref="J4" pin="12"/>
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="62" name="ESP_IO5">
+      <node ref="J4" pin="10"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="63" name="ESP_IO18">
+      <node ref="J4" pin="9"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="64" name="ESP_IO19">
+      <node ref="J4" pin="8"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad32)">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="66" name="ESP_IO21">
+      <node ref="U3" pin="33"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="67" name="ESP_IO22">
+      <node ref="U3" pin="36"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="68" name="ESP_IO23">
+      <node ref="U3" pin="37"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="69" name="ESP_EN">
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="70" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="71" name="Net-(J8-Pad4)">
+      <node ref="U1" pin="6"/>
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="72" name="Net-(J8-Pad5)">
+      <node ref="U1" pin="7"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="73" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="74" name="Net-(J6-Pad5)">
+      <node ref="U1" pin="2"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="75" name="Net-(J6-Pad6)">
+      <node ref="U1" pin="5"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="76" name="Net-(J6-Pad7)">
+      <node ref="U1" pin="1"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="77" name="Net-(J6-Pad8)">
+      <node ref="U1" pin="8"/>
+      <node ref="J6" pin="8"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="78" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="79" name="Net-(U9-Pad11)">
+      <node ref="U9" pin="11"/>
+    </net>
+    <net code="80" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="XTAL1" pin="2"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="81" name="Net-(C8-Pad1)">
+      <node ref="U9" pin="4"/>
+      <node ref="XTAL1" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="82" name="Net-(C14-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="J13" pin="6"/>
+      <node ref="U9" pin="22"/>
+      <node ref="U9" pin="28"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U9" pin="10"/>
+      <node ref="U9" pin="13"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D1-Pad6)">
+      <node ref="D1" pin="6"/>
+    </net>
+    <net code="84" name="GND1">
+      <node ref="J3" pin="A1"/>
+      <node ref="J3" pin="S4"/>
+      <node ref="J3" pin="S3"/>
+      <node ref="J3" pin="A12"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J3" pin="B1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J3" pin="S2"/>
+      <node ref="J3" pin="S1"/>
+      <node ref="D1" pin="5"/>
+      <node ref="J3" pin="B12"/>
+    </net>
+    <net code="85" name="Net-(C11-Pad1)">
+      <node ref="U9" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="86" name="Net-(D2-Pad1)">
+      <node ref="U9" pin="32"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D2-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="88" name="Net-(J3-PadA5)">
+      <node ref="R4" pin="1"/>
+      <node ref="J3" pin="A5"/>
+    </net>
+    <net code="89" name="Net-(R8-Pad1)">
+      <node ref="U9" pin="17"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="90" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="91" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="92" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="93" name="Net-(R7-Pad1)">
+      <node ref="U9" pin="18"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="94" name="Net-(FB2-Pad1)">
+      <node ref="FB2" pin="1"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D1-Pad1)">
+      <node ref="FB2" pin="2"/>
+      <node ref="J3" pin="B6"/>
+      <node ref="J3" pin="A6"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="96" name="Net-(FB1-Pad1)">
+      <node ref="J7" pin="3"/>
+      <node ref="FB1" pin="1"/>
+    </net>
+    <net code="97" name="Net-(C12-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="98" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="99" name="Net-(R10-Pad1)">
+      <node ref="U8" pin="25"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="100" name="Net-(C7-Pad1)">
+      <node ref="J10" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="101" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U8" pin="24"/>
+    </net>
+    <net code="102" name="Net-(C9-Pad1)">
+      <node ref="J10" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="103" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="104" name="Net-(U8-Pad16)">
+      <node ref="U8" pin="16"/>
+    </net>
+    <net code="105" name="Net-(U8-Pad17)">
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="106" name="Net-(U8-Pad18)">
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="107" name="Net-(U8-Pad19)">
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="108" name="Net-(U9-Pad31)">
+      <node ref="U9" pin="31"/>
+    </net>
+    <net code="109" name="Net-(U9-Pad20)">
+      <node ref="U9" pin="20"/>
+    </net>
+    <net code="110" name="Net-(U9-Pad21)">
+      <node ref="U9" pin="21"/>
+    </net>
+    <net code="111" name="Net-(J13-Pad5)">
+      <node ref="U9" pin="23"/>
+      <node ref="J13" pin="5"/>
+    </net>
+    <net code="112" name="Net-(J13-Pad4)">
+      <node ref="J13" pin="4"/>
+      <node ref="U9" pin="24"/>
+    </net>
+    <net code="113" name="Net-(J13-Pad3)">
+      <node ref="J13" pin="3"/>
+      <node ref="U9" pin="25"/>
+    </net>
+    <net code="114" name="Net-(J13-Pad2)">
+      <node ref="U9" pin="26"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="115" name="Net-(U9-Pad30)">
+      <node ref="U9" pin="30"/>
+    </net>
+    <net code="116" name="Net-(U9-Pad12)">
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="117" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="118" name="Net-(R12-Pad1)">
+      <node ref="U9" pin="29"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="119" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="120" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="121" name="3V3_FT260">
+      <node ref="U8" pin="6"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U8" pin="5"/>
+      <node ref="J11" pin="6"/>
+      <node ref="U8" pin="26"/>
+    </net>
+    <net code="122" name="Net-(C13-Pad1)">
+      <node ref="U8" pin="27"/>
+      <node ref="J10" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+  </nets>
+</export>

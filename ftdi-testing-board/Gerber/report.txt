@@ -1,0 +1,50 @@
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-Edge_Cuts.gbr" created.
+Create Gerber job file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-job.gbrjob"
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-Edge_Cuts.gbr" created.
+Create Gerber job file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-job.gbrjob"
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-Edge_Cuts.gbr" created.
+Create Gerber job file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-job.gbrjob"
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-Edge_Cuts.gbr" created.
+Create Gerber job file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-job.gbrjob"
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Cu.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Paste.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_SilkS.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-F_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-B_Mask.gbr" created.
+Plot file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-Edge_Cuts.gbr" created.
+Create Gerber job file "C:\Ext\ftdi-development-boards\ftdi-testing-board\Gerber\ftdi-testing-board-job.gbrjob"

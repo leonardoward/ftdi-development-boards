@@ -75,25 +75,6 @@ F 3 "" H 2500 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UJ31-CH-G2-SMT-TR:UJ31-CH-G2-SMT-TR J3
-U 1 1 610CDFAD
-P 1000 2150
-F 0 "J3" H 1257 3617 50  0000 C CNN
-F 1 "UJ31-CH-G2-SMT-TR" H 1257 3526 50  0000 C CNN
-F 2 "UJ31CHG2SMTTR:UJ31CHG2SMTTR" H 2250 2650 50  0001 L CNN
-F 3 "https://www.arrow.com/en/products/uj31-ch-g2-smt-tr/cui-devices" H 2250 2550 50  0001 L CNN
-F 4 "USB Connectors USB jack 3.1 C type 24pin Horz SMT" H 2250 2450 50  0001 L CNN "Description"
-F 5 "4.66" H 2250 2350 50  0001 L CNN "Height"
-F 6 "CUI Devices" H 2250 2250 50  0001 L CNN "Manufacturer_Name"
-F 7 "UJ31-CH-G2-SMT-TR" H 3000 2250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "490-UJ31-CH-G2SMT-TR" H 2800 1950 50  0001 L CNN "Supplier Part Number 2"
-F 9 "Mouser" H 2250 1950 50  0001 L CNN "Supplier 2"
-F 10 "Digi-Key" H 2300 2050 50  0001 L CNN "Supplier 1"
-F 11 "102-4483-1-ND" H 2800 2050 50  0001 L CNN "Supplier Part Number 1"
-	1    1000 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L R-5.1k-0805:5.1k R3
 U 1 1 6113E3B6
 P 2050 2100
@@ -480,26 +461,15 @@ Wire Wire Line
 	7400 1550 7400 1600
 Wire Wire Line
 	7850 1550 7850 1600
-$Comp
-L power:GND1 #PWR0106
-U 1 1 610F2402
-P 8800 2650
-F 0 "#PWR0106" H 8800 2400 50  0001 C CNN
-F 1 "GND1" H 8805 2477 50  0000 C CNN
-F 2 "" H 8800 2650 50  0001 C CNN
-F 3 "" H 8800 2650 50  0001 C CNN
-	1    8800 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 1200 7850 1200
 Wire Wire Line
 	7400 1250 7400 1200
 $Comp
-L C-4.7uF-0805:4.7uF U7
+L C-4.7uF-0805:4.7uF C14
 U 1 1 610ECEC6
 P 7850 1400
-F 0 "U7" H 7965 1446 50  0000 L CNN
+F 0 "C14" H 7965 1446 50  0000 L CNN
 F 1 "4.7uF" H 7965 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9050 1600 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp" H 7850 1400 50  0001 C CNN
@@ -657,10 +627,10 @@ Wire Wire Line
 	3300 1450 3300 1550
 Connection ~ 2700 950 
 $Comp
-L C-4.7uF-0805:4.7uF U4
+L C-4.7uF-0805:4.7uF C12
 U 1 1 612427E7
 P 5650 1400
-F 0 "U4" H 5765 1446 50  0000 L CNN
+F 0 "C12" H 5765 1446 50  0000 L CNN
 F 1 "4.7uF" H 5765 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 1600 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp" H 5650 1400 50  0001 C CNN
@@ -913,10 +883,10 @@ $EndComp
 Wire Wire Line
 	7600 4050 7600 4000
 $Comp
-L C-4.7uF-0805:4.7uF U6
+L C-4.7uF-0805:4.7uF C13
 U 1 1 611FC350
 P 7600 4200
-F 0 "U6" H 7715 4246 50  0000 L CNN
+F 0 "C13" H 7715 4246 50  0000 L CNN
 F 1 "4.7uF" H 7715 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8800 4400 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp" H 7600 4200 50  0001 C CNN
@@ -1134,8 +1104,6 @@ Text Notes 10950 1500 0    50   ~ 0
 RX
 Text Notes 10950 1400 0    50   ~ 0
 TX
-Wire Notes Line
-	10950 1950 10950 1250
 Wire Wire Line
 	10450 2500 10450 2450
 Wire Wire Line
@@ -1174,17 +1142,6 @@ F 7 "150080SS75000" H 10850 2000 50  0001 C CNN "Manufacturer Part Number"
 	1    10450 2300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Conn_01x05_Male J13
-U 1 1 614444D0
-P 10900 1550
-F 0 "J13" H 11000 1100 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 11400 1200 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 10900 1550 50  0001 C CNN
-F 3 "~" H 10900 1550 50  0001 C CNN
-	1    10900 1550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10700 1350 10250 1350
 Wire Wire Line
@@ -1205,11 +1162,7 @@ F 3 "" H 10700 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	10550 1250 10550 1950
-Wire Notes Line
 	10550 1950 10950 1950
-Wire Notes Line
-	10950 1250 10550 1250
 Text Notes 10600 4900 0    50   ~ 0
 GND
 Text Notes 10600 4800 0    50   ~ 0
@@ -1221,24 +1174,7 @@ RX
 Text Notes 10600 4500 0    50   ~ 0
 TX
 Wire Notes Line
-	10600 5050 10600 4350
-$Comp
-L Connector:Conn_01x05_Male J11
-U 1 1 6153F5E1
-P 10550 4650
-F 0 "J11" H 10650 4200 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 11050 4300 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 10550 4650 50  0001 C CNN
-F 3 "~" H 10550 4650 50  0001 C CNN
-	1    10550 4650
-	-1   0    0    1   
-$EndComp
-Wire Notes Line
-	10200 4350 10200 5050
-Wire Notes Line
 	10200 5050 10600 5050
-Wire Notes Line
-	10600 4350 10200 4350
 $Comp
 L FT312D-32L1C-R:FT312D-32L1C-R U9
 U 1 1 610A2C09
@@ -1846,28 +1782,6 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	5900 3950 5900 6300
 $Comp
-L ESP32-WROOM-32D:ESP32-WROOM-32D U3
-U 1 1 6106AFC3
-P 3950 4550
-F 0 "U3" H 4650 4815 50  0000 C CNN
-F 1 "ESP32-WROOM-32D" H 4650 4724 50  0000 C CNN
-F 2 "ESP32-WROOM-32D:ESP32-WROOM-32D" H 5200 4650 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf" H 5200 4550 50  0001 L CNN
-F 4 "WiFi Modules (802.11) SMD Module, ESP32-D0WD, 32Mbits SPI flash, UART mode, PCB antenna" H 5200 4450 50  0001 L CNN "Description"
-F 5 "3.1" H 5200 4350 50  0001 L CNN "Height"
-F 6 "Espressif Systems" H 5200 4250 50  0001 L CNN "Manufacturer_Name"
-F 7 "ESP32-WROOM-32D" H 5200 4150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "N/A" H 5200 4050 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROOM-32D?qs=MLItCLRbWszx2KabkKPu5A%3D%3D" H 5200 3950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5200 3850 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5200 3750 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C473012" H 3950 4550 50  0001 C CNN "LCSC"
-F 13 "Digi-Key" H 3950 4550 50  0001 C CNN "Supplier 1"
-F 14 "1965-ESP32-WROOM-32D(4MB)CT-ND" H 3950 4550 50  0001 C CNN "Supplier Part Number 1"
-	1    3950 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x14_Male J1
 U 1 1 611FFEA9
 P 650 6950
@@ -2262,4 +2176,108 @@ F 3 "" H 5950 1550 50  0001 C CNN
 	1    5950 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND2 #PWR0106
+U 1 1 6148C062
+P 8800 2650
+F 0 "#PWR0106" H 8800 2400 50  0001 C CNN
+F 1 "GND2" H 8805 2477 50  0000 C CNN
+F 2 "" H 8800 2650 50  0001 C CNN
+F 3 "" H 8800 2650 50  0001 C CNN
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L UJ31-CH-G2-SMT-TR:UJ31-CH-G2-SMT-TR J3
+U 1 1 610CDFAD
+P 1000 2150
+F 0 "J3" H 1257 3617 50  0000 C CNN
+F 1 "UJ31-CH-G2-SMT-TR" H 1257 3526 50  0000 C CNN
+F 2 "UJ31CHG2SMTTR:UJ31CHG2SMTTR" H 2250 2650 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/uj31-ch-g2-smt-tr/cui-devices" H 2250 2550 50  0001 L CNN
+F 4 "USB Connectors USB jack 3.1 C type 24pin Horz SMT" H 2250 2450 50  0001 L CNN "Description"
+F 5 "4.66" H 2250 2350 50  0001 L CNN "Height"
+F 6 "CUI Devices" H 2250 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "UJ31-CH-G2-SMT-TR" H 3000 2250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "490-UJ31-CH-G2SMT-TR" H 2800 1950 50  0001 L CNN "Supplier Part Number 2"
+F 9 "Mouser" H 2250 1950 50  0001 L CNN "Supplier 2"
+F 10 "Digi-Key" H 2300 2050 50  0001 L CNN "Supplier 1"
+F 11 "102-4483-1-ND" H 2800 2050 50  0001 L CNN "Supplier Part Number 1"
+	1    1000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP32-WROOM-32D:ESP32-WROOM-32D U3
+U 1 1 6106AFC3
+P 3950 4550
+F 0 "U3" H 4650 4815 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 4650 4724 50  0000 C CNN
+F 2 "ESP32-WROOM-32D:ESP32-WROOM-32D" H 5200 4650 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf" H 5200 4550 50  0001 L CNN
+F 4 "WiFi Modules (802.11) SMD Module, ESP32-D0WD, 32Mbits SPI flash, UART mode, PCB antenna" H 5200 4450 50  0001 L CNN "Description"
+F 5 "3.1" H 5200 4350 50  0001 L CNN "Height"
+F 6 "Espressif Systems" H 5200 4250 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESP32-WROOM-32D" H 5200 4150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 5200 4050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROOM-32D?qs=MLItCLRbWszx2KabkKPu5A%3D%3D" H 5200 3950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5200 3850 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5200 3750 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C473012" H 3950 4550 50  0001 C CNN "LCSC"
+F 13 "Digi-Key" H 3950 4550 50  0001 C CNN "Supplier 1"
+F 14 "1965-ESP32-WROOM-32D(4MB)CT-ND" H 3950 4550 50  0001 C CNN "Supplier Part Number 1"
+	1    3950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J11
+U 1 1 615880BD
+P 10550 4650
+F 0 "J11" H 10850 4200 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 10750 4200 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10550 4650 50  0001 C CNN
+F 3 "~" H 10550 4650 50  0001 C CNN
+	1    10550 4650
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	10600 4250 10200 4250
+Wire Notes Line
+	10600 4250 10600 5050
+Wire Notes Line
+	10200 4250 10200 5050
+Text Notes 10600 4400 0    50   ~ 0
+3V3
+Text GLabel 8350 5650 0    50   Output ~ 0
+3V3_FT260
+Wire Wire Line
+	8350 5650 8400 5650
+Connection ~ 8400 5650
+Text GLabel 10150 4350 0    50   Input ~ 0
+3V3_FT260
+Wire Wire Line
+	10150 4350 10350 4350
+$Comp
+L Connector:Conn_01x06_Male J13
+U 1 1 616CD3AB
+P 10900 1550
+F 0 "J13" H 11100 1050 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 11350 1100 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10900 1550 50  0001 C CNN
+F 3 "~" H 10900 1550 50  0001 C CNN
+	1    10900 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 1200 10700 1200
+Wire Wire Line
+	10700 1200 10700 1250
+Connection ~ 8750 1200
+Wire Notes Line
+	10550 1950 10550 1150
+Wire Notes Line
+	10550 1150 10950 1150
+Wire Notes Line
+	10950 1150 10950 1950
+Text Notes 10950 1300 0    50   ~ 0
+3V3
 $EndSCHEMATC
