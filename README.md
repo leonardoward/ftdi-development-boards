@@ -1,10 +1,16 @@
 # FTDI Development Board - FT260S and FT312D #
 
+<p align="center">
+  <img src="./Images/ftdi-pcb-1.jpg">
+</p>
+
 This repository contains the design of a development board for the [FT260S](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT260S-U/6124909) and the [FT312D](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT312D-32L1C-R/4047486). The PCB was designed using KiCad.
+
+## Hardware Design
 
 The design includes the following circuits:
 
-## USB C Port and Electromagnetic Compatibility (EMC) ##
+### USB C Port and Electromagnetic Compatibility (EMC)
 
 Everything starts with the USB C port, this type of USB was selected because it's size and because of the growing trend of using this port to charge and communicate with portable devices.
 
@@ -14,7 +20,7 @@ The design includes [Transient Voltage Suppression (TVS) diodes](https://www.dig
   <img src="./Images/schematic-usb-c.jpg">
 </p>
 
-## FTDI 1: FT260S-U ##
+### FTDI 1: FT260S-U
 
 The first USB TO UART/I2C FTDI that we is being tested is the [FT260S-U](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT260S-U/6124909). The design only considers the USB to UART, therefore the I2C is left unconnected.
 
@@ -22,7 +28,7 @@ The first USB TO UART/I2C FTDI that we is being tested is the [FT260S-U](https:/
   <img src="./Images/schematic-ft260s.jpg">
 </p>
 
-## FTDI 2: FT312D-32L1C-R ##
+### FTDI 2: FT312D-32L1C-R
 
 The second USB TO UART/I2C FTDI that is being tested is the [FT312D-32L1C-R](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT312D-32L1C-R/4047486). This IC does not support DTR/DSR for the UART, a feature that is required for the auto reset circuit of the [ESP32](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D-4MB/9381716) that was implemented, nevertheless the PCB has it as a second alternative.
 
@@ -30,7 +36,7 @@ The second USB TO UART/I2C FTDI that is being tested is the [FT312D-32L1C-R](htt
   <img src="./Images/schematic-f312d.jpg">
 </p>
 
-## ESP32 with Auto Reset ##
+### ESP32 with Auto Reset
 
 Finally, the [ESP32](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D-4MB/9381716). The design includes an auto reset circuit that uses RTS and DTR to reset and put in bootloader mode the ESP32. For more information about this circuit, these blogs [1](https://forum.micropython.org/viewtopic.php?f=18&t=4966) [2](https://forums.adafruit.com/viewtopic.php?f=57&p=483993#p487891) can be useful.
 
@@ -38,7 +44,7 @@ Finally, the [ESP32](https://www.digikey.com/en/products/detail/espressif-system
   <img src="./Images/schematic-esp32-auto-reset.jpg">
 </p>
 
-## SPDT Switch ##
+### SPDT Switch
 
 The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/products/detail/texas-instruments/TS5A3153DCUR/1216791) that will be tested for future implementations.
 
@@ -71,7 +77,7 @@ The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/produc
 | [12 MHz ±30ppm Crystal 18pF 35 Ohms HC-49/US](https://www.digikey.com/en/products/detail/jauch-quartz/J49SMH-F-G-G-K-12M0/10416018)  | 1 |
 | [Conn Header 40POS 2.54](https://www.digikey.com/en/products/detail/3m/2340-6111TG/1237275)  | 3 |
 
-## PCB ##
+## PCB
 
 <p align="center">
   <img src="./Images/ftdi-testing-board01.jpg">
@@ -79,4 +85,52 @@ The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/produc
 
 <p align="center">
   <img src="./Images/ftdi-testing-board02.jpg">
+</p>
+
+## TESTING
+
+### ESP32 with Auto Reset
+
+The designed auto reset circuit requires the signals 3.3V, GND, TX, RX, RTS and DTR. To test the circuit we used a commercial [USB to Serial Converter](https://www.amazon.com/gp/product/B075N82CDL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&language=en_US&psc=1) that contains the FT232RL, and provides all the required signal.
+
+<p align="center">
+  <img src="./Images/ftdi-programmer.jpg">
+</p>
+
+The following wiring diagram shows how to connect the commercial [USB to Serial Converter](https://www.amazon.com/gp/product/B075N82CDL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&language=en_US&psc=1) and our FTDI Development Board.
+
+<p align="center">
+  <img src="./Images/ftdi-wiring-diagram-1.jpg">
+</p>
+
+<p align="center">
+  <img src="./Images/ftdi-wiring-diagram-2.jpg">
+</p>
+
+Once the 2 boards were connected and the [USB to Serial Converter](https://www.amazon.com/gp/product/B075N82CDL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&language=en_US&psc=1) was plugged, the PC (in Windows) recognized the device and it was ready to use. Check if you need to install drivers associated to the FTDI, that is often the case.
+
+Note: Before testing the following code, verify that the ESP-IDF is installed and the Arduino IDE can program ESP devices.
+
+The code used is very simple, the ESP32 sends a "Hello world" message through the serial communication every second.
+
+```
+void setup() {
+   Serial.begin(115200);
+}
+
+void loop() {
+   Serial.println("Hello World");
+   delay(1000);
+}
+```
+To program the ESP32 we used the standard Arduino IDE, with the following configurations:
+
+<p align="center">
+  <img src="./Images/ide-setup.png">
+</p>
+
+And the test was successful, the following image shows the results in the serial monitor.
+
+<p align="center">
+  <img src="./Images/auto-reset-test-result.png">
 </p>
