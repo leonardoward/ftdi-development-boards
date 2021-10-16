@@ -6,11 +6,26 @@
 
 This repository contains the design of a development board for the [FT260S](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT260S-U/6124909) and the [FT312D](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT312D-32L1C-R/4047486). The PCB was designed using KiCad.
 
+## Table of Contents
+
+1. [Hardware Design](#getting-started)
+    1. [USB C Port with Electromagnetic Compatibility EMC](#usb-c-port-with-electromagnetic-compatibility-emc)
+    2. [FTDI-1-FT260S](#ftdi-1-ft260s)
+    3. [FTDI 2 FT312D](#ftdi-2-ft312d)
+    4. [ESP32 with Auto Reset](#esp32-with-auto-reset)
+    5. [SPDT Switch](#spdt-switch)
+2. [Bill of Materials](#bill-of-materials)
+3. [PCB](#pcb)
+4. [Testing](#testing)
+    1. [ESP32 with Auto Reset](#esp32-with-auto-reset)
+
 ## Hardware Design
 
 The design includes the following circuits:
 
-### USB C Port and Electromagnetic Compatibility (EMC)
+**[Back to top](#table-of-contents)**
+
+### USB C Port and Electromagnetic Compatibility EMC
 
 Everything starts with the USB C port, this type of USB was selected because it's size and because of the growing trend of using this port to charge and communicate with portable devices.
 
@@ -20,7 +35,9 @@ The design includes [Transient Voltage Suppression (TVS) diodes](https://www.dig
   <img src="./Images/schematic-usb-c.jpg">
 </p>
 
-### FTDI 1: FT260S-U
+**[Back to top](#table-of-contents)**
+
+### FTDI 1 FT260S
 
 The first USB TO UART/I2C FTDI that we is being tested is the [FT260S-U](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT260S-U/6124909). The design only considers the USB to UART, therefore the I2C is left unconnected.
 
@@ -28,13 +45,24 @@ The first USB TO UART/I2C FTDI that we is being tested is the [FT260S-U](https:/
   <img src="./Images/schematic-ft260s.jpg">
 </p>
 
-### FTDI 2: FT312D-32L1C-R
+**Notes:** The FT260S was originally selected to directly program the ESP32, and also provide serial communication. After careful consideration I found that the FT260 is a HID class device and as such it does not generate a Virtual COM Port (like the FT232R), to interface with the FT260 it can be used the official helper library, LibFT260.
+
+https://www.ftdichip.com/Support/Documents/AppNotes/AN_394_User_Guide_for_FT260.pdf
+https://www.ftdichip.com/Support/Documents/AppNotes/AN_395_User_Guide_for_LibFT260.pdf
+
+For that reason the FT260S will require more work before it can seamlessly program the ESP32. This topic will have to be addressed in the future.
+
+**[Back to top](#table-of-contents)**
+
+### FTDI 2 FT312D
 
 The second USB TO UART/I2C FTDI that is being tested is the [FT312D-32L1C-R](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT312D-32L1C-R/4047486). This IC does not support DTR/DSR for the UART, a feature that is required for the auto reset circuit of the [ESP32](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D-4MB/9381716) that was implemented, nevertheless the PCB has it as a second alternative.
 
 <p align="center">
   <img src="./Images/schematic-f312d.jpg">
 </p>
+
+**[Back to top](#table-of-contents)**
 
 ### ESP32 with Auto Reset
 
@@ -44,6 +72,8 @@ Finally, the [ESP32](https://www.digikey.com/en/products/detail/espressif-system
   <img src="./Images/schematic-esp32-auto-reset.jpg">
 </p>
 
+**[Back to top](#table-of-contents)**
+
 ### SPDT Switch
 
 The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/products/detail/texas-instruments/TS5A3153DCUR/1216791) that will be tested for future implementations.
@@ -51,6 +81,8 @@ The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/produc
 <p align="center">
   <img src="./Images/schematic-switch.jpg">
 </p>
+
+**[Back to top](#table-of-contents)**
 
 ## Bill of Materials ##
 
@@ -87,11 +119,13 @@ The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/produc
   <img src="./Images/ftdi-testing-board02.jpg">
 </p>
 
-## TESTING
+**[Back to top](#table-of-contents)**
+
+## Testing
 
 ### ESP32 with Auto Reset
 
-The designed auto reset circuit requires the signals 3.3V, GND, TX, RX, RTS and DTR. To test the circuit we used a commercial [USB to Serial Converter](https://www.amazon.com/gp/product/B075N82CDL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&language=en_US&psc=1) that contains the FT232RL, and provides all the required signal.
+The designed auto reset circuit requires the signals 3.3V, GND, TX, RX, RTS and DTR. The commercial [USB to Serial Converter](https://www.amazon.com/gp/product/B075N82CDL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&language=en_US&psc=1) (FT232RL) was used to test the circuit, it provides all the required signals.
 
 <p align="center">
   <img src="./Images/ftdi-programmer.jpg">
@@ -109,7 +143,7 @@ The following wiring diagram shows how to connect the commercial [USB to Serial 
 
 Once the 2 boards were connected and the [USB to Serial Converter](https://www.amazon.com/gp/product/B075N82CDL/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&language=en_US&psc=1) was plugged, the PC (in Windows) recognized the device and it was ready to use. Check if you need to install drivers associated to the FTDI, that is often the case.
 
-Note: Before testing the following code, verify that the ESP-IDF is installed and the Arduino IDE can program ESP devices.
+**Note:** Before testing the following code, verify that the ESP-IDF is installed and the Arduino IDE can program ESP devices.
 
 The code used is very simple, the ESP32 sends a "Hello world" message through the serial communication every second.
 
@@ -123,7 +157,7 @@ void loop() {
    delay(1000);
 }
 ```
-To program the ESP32 we used the standard Arduino IDE, with the following configurations:
+The standard Arduino IDE was used to program the ESP32, with the following configurations:
 
 <p align="center">
   <img src="./Images/ide-setup.png">
@@ -134,3 +168,5 @@ And the test was successful, the following image shows the results in the serial
 <p align="center">
   <img src="./Images/auto-reset-test-result.png">
 </p>
+
+**[Back to top](#table-of-contents)**
