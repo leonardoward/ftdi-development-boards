@@ -10,7 +10,7 @@ This repository contains the design of a development board for the [FT260S](http
 
 1. [Hardware Design](#getting-started)
     1. [USB C Port with Electromagnetic Compatibility EMC](#usb-c-port-with-electromagnetic-compatibility-emc)
-    2. [FTDI-1-FT260S](#ftdi-1-ft260s)
+    2. [FTDI 1 FT260S](#ftdi-1-ft260s)
     3. [FTDI 2 FT312D](#ftdi-2-ft312d)
     4. [ESP32 with Auto Reset](#esp32-with-auto-reset)
     5. [SPDT Switch](#spdt-switch)
@@ -25,7 +25,7 @@ The design includes the following circuits:
 
 **[Back to top](#table-of-contents)**
 
-### USB C Port and Electromagnetic Compatibility EMC
+### USB C Port with Electromagnetic Compatibility EMC
 
 Everything starts with the USB C port, this type of USB was selected because it's size and because of the growing trend of using this port to charge and communicate with portable devices.
 
@@ -108,6 +108,8 @@ The design includes a couple of [TS5A3153DCUR](https://www.digikey.com/en/produc
 | [FT312D-32L1C-R IC USB HOST CTRL 32-LQFP](https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT312D-32L1C-R/4047486)  | 1 |
 | [12 MHz ±30ppm Crystal 18pF 35 Ohms HC-49/US](https://www.digikey.com/en/products/detail/jauch-quartz/J49SMH-F-G-G-K-12M0/10416018)  | 1 |
 | [Conn Header 40POS 2.54](https://www.digikey.com/en/products/detail/3m/2340-6111TG/1237275)  | 3 |
+
+**[Back to top](#table-of-contents)**
 
 ## PCB
 
