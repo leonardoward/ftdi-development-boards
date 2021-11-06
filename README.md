@@ -8,7 +8,7 @@ This repository contains the design of a development board for the [FT260S](http
 
 ## Table of Contents
 
-1. [Hardware Design](#getting-started)
+1. [Hardware Design](#hardware-design)
     1. [USB C Port with Electromagnetic Compatibility EMC](#usb-c-port-with-electromagnetic-compatibility-emc)
     2. [FTDI 1 FT260S](#ftdi-1-ft260s)
     3. [FTDI 2 FT312D](#ftdi-2-ft312d)
